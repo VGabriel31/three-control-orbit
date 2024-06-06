@@ -49,7 +49,7 @@ function init() {
 
     // world
 
-    const geometry = new THREE.ConeGeometry(20, 50, 50, 1);
+    const geometry = new THREE.ConeGeometry(20, 50, 200, 1);
     const material = new THREE.MeshPhongMaterial({ color: 0xC2DBED, flatShading: true });
 
     for (let i = 0; i < 500; i++) {
